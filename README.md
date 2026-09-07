@@ -1,16 +1,44 @@
-# React + Vite
+# 📸 React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive image gallery built with **React.js**, **Axios**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+The application fetches images from the [Picsum Photos API](https://picsum.photos/) and displays them in a card-based layout. Users can navigate between pages using **Previous** and **Next** buttons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📷 Fetch images from Picsum Photos API
+- 🔄 Dynamic pagination
+- ⬅️ Previous page navigation
+- ➡️ Next page navigation
+- ⏳ Loading state while fetching images
+- 📱 Responsive card-based layout
+- 🎨 Styled using Tailwind CSS
+- ⚡ API requests handled using Axios
+- 🔁 Automatically fetches new data when page changes
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript**
+- **Axios**
+- **Tailwind CSS**
+- **Picsum Photos API**
+- **Vite**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   └── Card.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
